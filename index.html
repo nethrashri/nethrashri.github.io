@@ -3,136 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nethra Shri P | GenAI Specialist</title>
+    <title>Nethra Shri P | Data Scientist & GenAI Specialist</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Plus+Jakarta+Sans:wght@200;400;800&display=swap');
-        
-        body { 
-            font-family: 'Plus Jakarta Sans', sans-serif; 
-            scroll-behavior: smooth; 
-            -webkit-user-select: none;
-            user-select: none;
-            background-color: #020617;
-            overflow-x: hidden;
-        }
-
-        /* Typography Branding */
-        .brand-name {
-            font-family: 'Space Mono', monospace;
-            letter-spacing: -1px;
-        }
-
-        .hero-title {
-            font-weight: 800;
-            letter-spacing: -0.05em;
-            line-height: 0.9;
-        }
-
-        .gradient-text { 
-            background: linear-gradient(135deg, #3b82f6, #a855f7, #ec4899); 
-            -webkit-background-clip: text; 
-            -webkit-text-fill-color: transparent; 
-        }
-
-        /* Subtle background animation */
-        .bg-grid {
-            background-image: radial-gradient(#1e293b 1px, transparent 1px);
-            background-size: 40px 40px;
-            position: fixed;
-            inset: 0;
-            z-index: -1;
-            opacity: 0.3;
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        .gradient-text { background: linear-gradient(90deg, #3b82f6, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     </style>
 </head>
-<body class="text-slate-300">
+<body class="bg-[#0f172a] text-slate-300">
 
-    <div class="bg-grid"></div>
-
-    <nav class="fixed w-full z-50 bg-[#020617]/80 backdrop-blur-xl border-b border-slate-800/50">
+    <nav class="fixed w-full z-50 bg-[#0f172a]/80 backdrop-blur-md border-b border-slate-800">
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-            <span class="brand-name text-white text-xl md:text-2xl font-bold italic">
-                <span class="text-blue-500">&lt;</span>NETHRA<span class="text-blue-500">/</span>SHRI<span class="text-blue-500">&gt;</span>
-            </span>
-            <div class="flex space-x-6 text-[10px] md:text-xs font-semibold uppercase tracking-widest">
+            <span class="text-white font-bold tracking-tighter text-xl">NETHRA SHRI P.</span>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
                 <a href="#about" class="hover:text-blue-400 transition">About</a>
+                <a href="#skills" class="hover:text-blue-400 transition">Skills</a>
                 <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
-                <a href="mailto:nethrashri@rediffmail.com" class="text-blue-400 border border-blue-400/30 px-3 py-1 rounded hover:bg-blue-400 hover:text-white transition">Request CV</a>
+                <a href="mailto:nethrashri@rediffmail.com" class="text-white border border-blue-500 px-4 py-1.5 rounded-full hover:bg-blue-500/10 transition">Contact</a>
             </div>
         </div>
     </nav>
 
-    <section id="about" class="pt-52 pb-32 px-6 max-w-6xl mx-auto text-center md:text-left">
-        <h2 class="text-blue-500 font-mono text-xs mb-6 tracking-[0.5em] uppercase">// 12+ Years Experience</h2>
-        <h1 class="hero-title text-6xl md:text-9xl text-white mb-10">
-            DATA <span class="gradient-text">SCIENTIST.</span><br>
-            GENAI <span class="text-slate-800" style="-webkit-text-stroke: 1px #475569;">SPECIALIST.</span>
-        </h1>
-        
-        <div class="flex flex-col md:flex-row gap-12 items-start">
-            <p class="text-xl md:text-2xl text-slate-400 leading-relaxed max-w-2xl font-light">
-                Engineering <span class="text-white font-semibold">Agentic AI</span> and <span class="text-white font-semibold">RAG Architectures</span> for global enterprises. Based in Chennai, India.
-            </p>
-            <div class="flex gap-8 pt-2">
-                <a href="https://www.linkedin.com/in/nethra-shri-45773975/" target="_blank" class="text-white underline underline-offset-8 decoration-blue-500 hover:text-blue-400 transition-all font-bold">LinkedIn</a>
-                <a href="mailto:nethrashri@rediffmail.com" class="text-white underline underline-offset-8 decoration-purple-500 hover:text-purple-400 transition-all font-bold">Email</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-24 px-6 max-w-6xl mx-auto border-t border-slate-800/50">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-16">
-            <div>
-                <h3 class="text-white font-bold mb-4 uppercase tracking-tighter text-sm">Core Engineering</h3>
-                <p class="text-slate-500 text-sm leading-relaxed">LLM Fine-tuning, Vector Embeddings, Semantic Search, and Prompt Engineering.</p>
-            </div>
-            <div>
-                <h3 class="text-white font-bold mb-4 uppercase tracking-tighter text-sm">Tech Stack</h3>
-                <p class="text-slate-500 text-sm leading-relaxed">Python, LangChain, HuggingFace, TensorFlow, AWS, and Azure.</p>
-            </div>
-            <div>
-                <h3 class="text-white font-bold mb-4 uppercase tracking-tighter text-sm">Education</h3>
-                <p class="text-slate-500 text-sm leading-relaxed">M.E. Computer Science (2022) • B.E. Information Technology (2013)</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="py-32 px-6 max-w-6xl mx-auto">
-        <h3 class="text-slate-500 text-xs uppercase tracking-[0.4em] mb-20 text-center">Selected Deployments</h3>
-        <div class="space-y-32">
-            <div class="flex flex-col md:flex-row justify-between gap-8 border-l border-slate-800 pl-8">
-                <div class="md:w-1/3">
-                    <p class="text-blue-500 font-mono text-xs mb-2">VERIZON</p>
-                    <h4 class="text-white text-3xl font-bold tracking-tighter">WiFi Diagnostic RAG</h4>
+    <section id="about" class="pt-32 pb-20 px-6 max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-2/3">
+                <h2 class="text-blue-500 font-semibold tracking-widest uppercase text-sm mb-4">Data Scientist | GenAI & LLM Specialist</h2>
+                <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                    Engineering Intelligence with <span class="gradient-text">Generative AI.</span>
+                </h1>
+                <p class="text-lg text-slate-400 mb-8 max-w-2xl leading-relaxed">
+                    Innovative Data Scientist with over 12 years of experience. Expert in solving complex business problems using 
+                    <strong>LLMs, RAG architectures, and Agentic AI</strong> across Telecommunications, FMCG, and Healthcare.
+                </p>
+                <div class="flex gap-4">
+                    <a href="https://www.linkedin.com/in/nethra-shri-45773975/" target="_blank" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">LinkedIn Profile</a>
+                    <a href="mailto:nethrashri@rediffmail.com" class="bg-slate-800 text-white px-8 py-3 rounded-lg font-semibold hover:bg-slate-700 transition">Email Me</a>
                 </div>
-                <p class="md:w-2/3 text-slate-400 text-lg">Developed an intelligent agent leveraging <strong>Gemma-3-270M</strong> for automated network troubleshooting and document retrieval.</p>
-            </div>
-
-            <div class="flex flex-col md:flex-row justify-between gap-8 border-l border-slate-800 pl-8">
-                <div class="md:w-1/3">
-                    <p class="text-purple-500 font-mono text-xs mb-2">ADOBE</p>
-                    <h4 class="text-white text-3xl font-bold tracking-tighter">Healing-as-a-Service</h4>
-                </div>
-                <p class="md:w-2/3 text-slate-400 text-lg">Self-healing infrastructure automation using <strong>StackStorm</strong> and NLP for failure pattern classification.</p>
             </div>
         </div>
     </section>
 
-    <footer class="py-24 text-center border-t border-slate-800/50 bg-[#010409]">
-        <p class="text-slate-600 text-[10px] tracking-[0.4em] uppercase mb-6 font-mono">Confidential • Nethra Shri P • No unauthorized copying</p>
-        <div class="inline-block px-6 py-2 border border-slate-800 rounded-full text-slate-500 text-[10px] font-mono">
-            IP_LOGGING: ACTIVE
+    <section id="skills" class="py-20 border-y border-slate-800 bg-[#111a2e]">
+        <div class="max-w-6xl mx-auto px-6">
+            <h3 class="text-white text-2xl font-bold mb-12">Technical Expertise</h3>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-sm">
+                <div class="p-6 rounded-xl bg-slate-900 border border-slate-800">
+                    <h4 class="text-blue-400 font-bold mb-3 uppercase tracking-wider">AI & GenAI</h4>
+                    <p>LLM Fine-tuning, RAG Architecture, Prompt Engineering, Semantic Search, Vector Databases.</p>
+                </div>
+                <div class="p-6 rounded-xl bg-slate-900 border border-slate-800">
+                    <h4 class="text-blue-400 font-bold mb-3 uppercase tracking-wider">Frameworks</h4>
+                    <p>LangChain, HuggingFace, TensorFlow, Scikit-learn, Keras, NLTK, SpaCy.</p>
+                </div>
+                <div class="p-6 rounded-xl bg-slate-900 border border-slate-800">
+                    <h4 class="text-blue-400 font-bold mb-3 uppercase tracking-wider">Cloud & Tools</h4>
+                    <p>AWS, Azure, Power BI, Git, JIRA, StackStorm, MySQL, MongoDB.</p>
+                </div>
+                <div class="p-6 rounded-xl bg-slate-900 border border-slate-800">
+                    <h4 class="text-blue-400 font-bold mb-3 uppercase tracking-wider">Languages</h4>
+                    <p>Python, Node.js, Shell Scripting, SQL.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="flex justify-between items-end mb-16">
+            <div>
+                <h3 class="text-white text-3xl font-bold mb-2">Selected Projects</h3>
+                <p class="text-slate-500">Transforming industries through advanced analytics and automation.</p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="group p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition duration-300">
+                <span class="text-blue-500 text-xs font-bold uppercase">Verizon Communications</span>
+                <h4 class="text-white text-xl font-bold mt-2 mb-4">RAG-Enhanced WiFi Troubleshooting</h4>
+                <p class="text-slate-400 text-sm leading-relaxed mb-6">Developed an intelligent chatbot leveraging Gemma-3-270M and vector embeddings for automated network diagnostics and semantic documentation retrieval.</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-xs">Gemma</span>
+                    <span class="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-xs">Vector DB</span>
+                    <span class="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-xs">RAG</span>
+                </div>
+            </div>
+
+            <div class="group p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-purple-500/50 transition duration-300">
+                <span class="text-purple-500 text-xs font-bold uppercase">Verizon Communications</span>
+                <h4 class="text-white text-xl font-bold mt-2 mb-4">OTT Recommender System</h4>
+                <p class="text-slate-400 text-sm leading-relaxed mb-6">Implemented Neural Collaborative Filtering (NCF) and SoftMax DNNs using TensorFlow 2.0 to predict user engagement with high accuracy.</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 rounded-full bg-purple-500/10 text-purple-400 text-xs">Deep Learning</span>
+                    <span class="px-3 py-1 rounded-full bg-purple-500/10 text-purple-400 text-xs">TensorFlow</span>
+                </div>
+            </div>
+
+            <div class="group p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-emerald-500/50 transition duration-300">
+                <span class="text-emerald-500 text-xs font-bold uppercase">Diageo Business Services</span>
+                <h4 class="text-white text-xl font-bold mt-2 mb-4">Automated Tax Validation</h4>
+                <p class="text-slate-400 text-sm leading-relaxed mb-6">Designed a classification model using Fuzzy Logic and SVM to automate global vendor tax calculations, reducing manual errors and saving costs.</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs">Fuzzy Logic</span>
+                    <span class="px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs">Python</span>
+                </div>
+            </div>
+
+            <div class="group p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-orange-500/50 transition duration-300">
+                <span class="text-orange-500 text-xs font-bold uppercase">Adobe Systems</span>
+                <h4 class="text-white text-xl font-bold mt-2 mb-4">Self-Healing Automation</h4>
+                <p class="text-slate-400 text-sm leading-relaxed mb-6">Built a platform using StackStorm to automate disk failure recovery and service restarts using failure pattern classification (TF-IDF/Word2vec).</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs">NLP</span>
+                    <span class="px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs">StackStorm</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-slate-800 mt-20">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-sm">
+                <p class="text-white font-bold">Nethra Shri P</p>
+                <p class="text-slate-500">nethrashri@rediffmail.com</p>
+            </div>
+            <p class="text-slate-500 text-xs">© 2026 Hosted on GitHub Pages</p>
         </div>
     </footer>
 
-    <script>
-        // Security Scripts
-        document.addEventListener('contextmenu', e => e.preventDefault());
-        document.onkeydown = e => {
-            if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 85 || e.keyCode === 73 || e.keyCode === 83)) return false;
-            if (e.keyCode === 123) return false;
-        };
-    </script>
 </body>
 </html>
